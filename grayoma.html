@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html class="no-touch">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>MCGDPS</title>
+    <meta name="description" content="MCGDPS Geometry Dash Private Server">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Geometry Dash, GD, GDPS, MCGDPS, GDTR, MCGDPS, MCGDPS">
+    <link rel="stylesheet" href="tailwind.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="icon" type="image/png" href="icon.png">
+</head>
+
+<body class="m-0 flex flex-col min-h-screen dark:bg-gray-900">
+    <div class="flex-grow">
+        <div class="p-4 mx-auto flex flex-row shadow-md justify-between" id="header">
+            <div class="flex-none mr-2">
+                <a class="font-medium p-4 pt-2 pb-2 text-white bg-blue-500 rounded-full shadow-md" href="index.html">
+                    Discord</a>
+            </div>
+            <div class="flex-grow">
+                <a href="https://discord.gg/qa38nTf6w7"
+                    class="button font-medium p-4 pt-2 pb-2 text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200 rounded-full">Discord</a>
+            </div>
+            <div class="flex-none">
+                <input
+                    class="cursor-pointer relative w-12 h-6 mr-4 transition-all duration-75 ease-out bg-gray-400 rounded-full outline-none appearance-none"
+                    type="checkbox" onclick="switchTheme()" checked />
+            </div>
+            <div class="flex-none">
+                <a href="http://ps.fhgdps.com/mcgdpsziverx/dashboard/"
+                    class="button font-medium p-4 pt-2 pb-2 text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-full shadow-md">Dashboard</a>
+            </div>
+        </div>
+
+        <div class="p-4 mx-auto flex-row shadow-md justify-between hidden" id="header-mobile">
+            <div class="flex-none mr-2">
+                <a class="font-medium p-4 pt-2 pb-2 text-white bg-blue-500 rounded-full shadow-md">
+                    MCGDPS</a>
+            </div>
+            <div class="flex-none">
+                <a id="menu-button"
+                    class="button font-medium p-4 pt-2 pb-2 text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-full shadow-md">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+        </div>
+        <div class="p-4 mx-auto flex-row shadow-md justify-between hidden" id="menu">
+            <div class="flex-grow">
+                <a href="https://discord.gg/AfDuArBb"
+                    class="button font-medium p-4 pt-2 pb-2 text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-200 rounded-full">Discord</a>
+            </div>
+            <div class="flex-none">
+                <input
+                    class="cursor-pointer relative w-12 h-6 mr-4 transition-all duration-75 ease-out bg-gray-400 rounded-full outline-none appearance-none"
+                    type="checkbox" onclick="switchTheme()" checked="">
+            </div>
+            <div class="flex-none">
+                <a href="http://ps.fhgdps.com/mcgdpsziverx/dashboard/"
+                    class="button font-medium p-4 pt-2 pb-2 text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-full shadow-md">Dashboard</a>
+            </div>
+        </div>
+        <div id="banner" class="flex flex-row justify-center p-24 pl-0 pr-0 md:p-36 md:pl-0 md:pr-0">
+            <div class="flex flex-col md:flex-row">
+                <a href="windows-download.html"
+                    class="button font-medium text-2xl ml p-6 pt-4 pb-4 m-4 max-w-sm text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-full shadow-md">Скачать
+                    (Windows)</a>
+                <a href="http://ps.fhgdps.com/mcgdpsziverx/download/MCGDPS.apk"
+                    class="button font-medium text-2xl ml p-6 pt-4 pb-4 m-4 max-w-sm text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-full shadow-md">Скачать
+                    (Android)</a>
+<!--                 <a href="linux-download.html"
+                    class="button font-medium text-2xl ml p-6 pt-4 pb-4 m-4 max-w-sm text-white bg-blue-500 hover:bg-blue-600 active:bg-blue-700 rounded-full shadow-md">Скачать
+                    (Linux)</a> -->
+
+            </div>
+        </div>
+        <div id="block1">
+            <div class="flex flex-col justify-center text-center m-8 mt-16 ml-8 mr-8 md:ml-16 md:mr-16">
+                <div class="text-4xl mb-2 text-gray-600 dark:text-gray-300 leading-relaxed">MCGDPS версия 1.3
+                </div>
+                <div class="text-2xl text-gray-600 dark:text-gray-400 leading-relaxed">Приватный сервер Geometry Dash.
+                </div>
+                <div class="text-2xl text-gray-500 dark:text-gray-400 leading-relaxed">Что нового:
+                </div>
+                <div class="text-2xl text-gray-400 dark:text-gray-300 leading-relaxed"> - Что добавилось на ПК:
+
+
+- были пофиксены секреты
+- было добавлено 4 мода, такие как икон кит и другие
+- были сделаны новые фоны
+- был исправлен баг с увеличивающайся кнопкой плэйтест в редакторе
+- были изменены некоторые сцены
+- небольшое улучшение русифкатора
+- глобальное улучшение тп
+                </div>
+                <div class="text-2xl text-gray-400 dark:text-gray-300 leading-relaxed"> - что добавилось на андроид:
+
+
+- были пофикшены секреты
+- исправлены баги с русификатором
+- исправлен баг с прописыванием милионного айди
+- глобальное улучшение тп
+                </div>
+            </div>
+        </div>
+        <div id="block2">
+            <div class="flex flex-col justify-center text-center m-8 mt-16 ml-8 mr-8 md:ml-16 md:mr-16">
+                <div class="text-4xl mb-2 text-gray-600 dark:text-gray-300 leading-relaxed">Discord сервер
+                </div>
+                <div class="text-2xl text-gray-500 dark:text-gray-400 leading-relaxed">У нас есть свой Discord сервер с
+                    активным чатом и интересными людьми. Там проходят голосования, появляются новости о обновлениях и многое другое!
+                    <a href="https://discord.gg/ynNatjqUHm" class="test-2xl text-blue-500 dark:text-blue-400 leading-relaxed"> 
+                        Заходи!
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="block3">
+            <div class="flex flex-col justify-center text-center m-16 ml-8 mr-8 md:ml-16 md:mr-16">
+                <div class="text-4xl mb-2 text-gray-600 dark:text-gray-300 leading-relaxed">Рейты
+                </div>
+                <div class="text-2xl text-gray-500 dark:text-gray-400 leading-relaxed">На нашем сервере несложно
+                    получить рейт! Правила рейта в Discord сервере.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex-shrink-0">
+        <div class="flex flex-col justify-between p-16 pt-4 pb-4 bg-gray-800">
+            <div class="text-4xl text-gray-400 m-4 text-center md:text-left">Ссылки</div>
+            <div class="flex flex-row justify-center md:justify-start">
+                <a href="https://discord.gg/qa38nTf6w7" class="text-xl text-gray-400 m-4">Discord</a>
+                <a href="http://ps.fhgdps.com/mcgdpsziverx/dashboard/" class="text-xl text-gray-400 m-4">Dashboard</a>
+                <a href="http://ps.fhgdps.com/mcgdpsziverx/dashboard/reupload/songAdd.php"
+                    class="text-xl text-gray-400 m-4">Добавить
+                    музыку</a>
+            </div>
+            <div class="text-md text-gray-400 m-4 text-center">
+                Автор: Sagire#4000
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const header = document.getElementById('header');
+        const headerMobile = document.getElementById('header-mobile');
+
+        const menu = document.getElementById('menu');
+
+        onResize();
+
+        window.addEventListener('resize', onResize);
+
+        function onResize() {
+            if (document.documentElement.offsetWidth <= 425) {
+                header.classList.remove('flex');
+                header.classList.add('hidden');
+
+                headerMobile.classList.add('flex');
+                headerMobile.classList.remove('hidden');
+            } else if (document.documentElement.offsetWidth > 425) {
+                header.classList.add('flex');
+                header.classList.remove('hidden');
+
+                headerMobile.classList.remove('flex');
+                headerMobile.classList.add('hidden');
+            }
+        }
+
+        document.getElementById('menu-button').addEventListener('click', () => {
+            menu.classList.toggle('flex');
+            menu.classList.toggle('hidden');
+        });
+
+        function switchTheme() {
+            document.documentElement.classList.toggle('dark');
+        }
+    </script>
+</body>
+
+</html>
