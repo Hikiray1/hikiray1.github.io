@@ -1,1 +1,0 @@
-# hikiray1.github.io
